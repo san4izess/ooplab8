@@ -25,8 +25,5 @@ public class firstTask {
     // використання масиву строк для зберігання інформації
     String[] array = lines.toArray(new String[0]);
     System.out.println("Масив: " + Arrays.toString(array));
-
-    // використання списку для зберігання інформації
-    System.out.println("Список: " + lines);
   }
 }
