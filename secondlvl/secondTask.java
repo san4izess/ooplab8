@@ -8,7 +8,7 @@ public class secondTask {
   public static void main(String[] args) {
     File file1 = new File("secondlvl/file1.txt");
     File file2 = new File("secondlvl/file2.txt");
-    File outputFile = new File("output.txt");
+    File outputFile = new File("secondlvl/output.txt");
 
     try (
       Scanner scanner1 = new Scanner(file1);
